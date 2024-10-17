@@ -1,10 +1,10 @@
-Problem:
+// Problem:
 
-<a href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</a>
+// <a href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</a>
 
 
 
-How I solved it
+// How I solved it
 
 var reverse = function (x) {
     var reverseN = +String(Math.abs(x)).split('').reverse().join('');
